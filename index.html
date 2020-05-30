@@ -2,15 +2,13 @@
     <head>
         <title>Hobby</title>
         <meta charset="utf-8">
+        <script type="text/javascript" src="./scripts/weekdays.js"></script>
         <style>
         h1 {
             color:yellowgreen;
         }
         h2 {
             color:yellowgreen;
-        }
-        h3 {
-            color:yellowgreen
         }
         body {
             background-color:rgb(61, 148, 219);
@@ -21,16 +19,23 @@
         .experience {
             color:wheat
         }
+        .tournaments {
+            color:wheat
+        }
+        .proffesional {
+            color:wheat
+        }
         ol {
             color:wheat
         }
         </style>
     </head>
     <body>
-       
+        <h2 id="dayofweek"></h2>
+      
         <h1>My hobby is...</h1>
-        
         <h2>Tennis</h2>
+
         
         <ol>
             <li><a href="#Number1">The sport</a></li>
@@ -52,7 +57,7 @@
 
         <img src="./images/balls.jpg">
 
-        <h3 id="Number2">My experience</h3>
+        <h2 id="Number2">My experience</h2>
     <p class="experience">My first time meeting with the sport was at the age of 6
              because of my parents who wanted me to be active. At first
              I didn't enjoy playing it but after time it started to grow
@@ -61,15 +66,56 @@
 
              <img src="./images/kids_play.jpg">
 
-             <h4 id="#Number3">My achievments</h4>
-    <p class="tournaments"></p>
+             <h2 id="Number3">My achievments</h2>
+    <p class="tournaments">After I decided to start participating in tournaments I 
+        started to enjoy the sport even more and after playing on my clubs courts
+        I got an invitation to play away. How could I say no to that, so I packed and 
+        went to win the tournament with my parents in Truskavets at that time I was 9
+        years old. Down below you can see some of my tournaments and where did I place in them:</p>
+        <table class="tournaments">
 
+            <thead>
+                <tr>
+                    <th>Cities</th>
+                    <th>Place</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Truskavets</td>
+                <td>1st</td>
+            </tr>
+            <tr>
+                <td>Kraków</td>
+                <td>2nd</td>
+            </tr>
+            <tr>
+                <td>Kraków</td>
+                <td>1st</td>
+            </tr>
+            <tr>
+                <td>Szczecin</td>
+                <td>2nd</td>
+            </tr>
+            <tr>
+                <td>Niepołomice</td>
+                <td>1st</td>
+            </tr>
+            <tr>
+                <td>Krzeszowice</td>
+                <td>3rd</td>
+            </tr>
+            </tbody>
+        </table>
 
+        <h2 id="Number4">My inspiration</h2>
+        <p class="proffesional">Ever since I got interested in Tennis I started
+            watching other tennis players play and the one player I found 
+            inspiiring was Novak Djokovic. He is a Serbian professional tennis
+            player who is currently ranked world No. 1 in men's singles tennis
+            by the Association of Tennis Professionals. He inspired me to become
+            better and to play with your mind and not muscle.</p>
 
-
-
-
-
-
+            <img src="./images/Djokovic.jpg">
     </body>
 </html>
